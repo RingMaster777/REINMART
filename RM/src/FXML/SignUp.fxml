@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER.SignUpController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #f0f8ff;">
+         <children>
+            <TextField fx:id="name" layoutX="133.0" layoutY="285.0" prefHeight="25.0" prefWidth="296.0" promptText="Enter your Name">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="username" layoutX="140.0" layoutY="414.0" prefHeight="25.0" prefWidth="296.0" promptText="Enter User Name">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="pass" layoutX="529.0" layoutY="285.0" prefHeight="30.0" prefWidth="268.0" promptText="Enter your Password">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </PasswordField>
+            <PasswordField fx:id="conpass" layoutX="526.0" layoutY="414.0" prefHeight="30.0" prefWidth="268.0" promptText="Confirm your Password">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="email" layoutX="140.0" layoutY="527.0" prefHeight="25.0" prefWidth="296.0" promptText="Enter Email">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="signup" layoutX="288.0" layoutY="632.0" mnemonicParsing="false" onAction="#signUpsave" prefHeight="25.0" prefWidth="116.0" text="Sign Up">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="575.0" layoutY="632.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="116.0" text="Exit">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="122.0" prefWidth="1000.0" style="-fx-background-color: #d3d3d3;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/download.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="login" layoutX="827.0" layoutY="41.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="116.0" text="Log In">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Label layoutX="146.0" layoutY="168.0" prefHeight="64.0" prefWidth="418.0" text="Enter The Following Informations To Register:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="331.0" layoutY="45.0" prefHeight="42.0" prefWidth="390.0" text=" WELCONE TO THE REINMART" textFill="#6e6030">
+               <font>
+                  <Font name="Bell MT" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="526.0" layoutY="241.0" prefHeight="30.0" prefWidth="116.0" text="PASSWORD:">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="140.0" layoutY="359.0" prefHeight="30.0" prefWidth="116.0" text="USERNAME">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="526.0" layoutY="359.0" prefHeight="30.0" prefWidth="210.0" text="CONFIRM PASSWORD:">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="142.0" layoutY="482.0" prefHeight="30.0" prefWidth="116.0" text="EMAIL:">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="150.0" layoutY="254.0" prefHeight="30.0" prefWidth="116.0" text="NAME:">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

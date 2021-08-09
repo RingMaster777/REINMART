@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #f0f8ff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER.ContactUsController">
+   <children>
+      <AnchorPane layoutX="3.0" prefHeight="122.0" prefWidth="1000.0" style="-fx-background-color: #d3d3d3;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/download.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="306.0" layoutY="40.0" prefHeight="42.0" prefWidth="390.0" text=" WELCONE TO THE REINMART" textFill="#6e6030">
+               <font>
+                  <Font name="Bell MT" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="logout" layoutX="822.0" layoutY="46.0" mnemonicParsing="false" onAction="#logoutaction" style="-fx-background-color: WhiteSmoke;" text="Log Out">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="904.0" layoutY="46.0" mnemonicParsing="false" onAction="#exitaction" style="-fx-background-color: WhiteSmoke;" text="EXIT">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="3.0" layoutY="122.0" prefHeight="675.0" prefWidth="200.0" style="-fx-background-color: #d3d3d3;">
+         <children>
+            <Label layoutX="21.0" layoutY="57.0" prefHeight="40.0" prefWidth="159.0" text="DASHBOARD">
+               <font>
+                  <Font name="Bell MT Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="home" layoutX="63.0" layoutY="124.0" mnemonicParsing="false" onAction="#homeaction" style="-fx-background-color: light grey;" text="Home">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="aboutus" layoutX="51.0" layoutY="194.0" mnemonicParsing="false" onAction="#aboutusaction" style="-fx-background-color: light grey;" text="About Us">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="46.0" layoutY="318.0" mnemonicParsing="false" style="-fx-background-color: light grey;" text="Contact us">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="cart" layoutX="71.0" layoutY="255.0" mnemonicParsing="false" onAction="#cartaction" style="-fx-background-color: light grey;" text="Cart">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="264.0" layoutY="214.0" prefHeight="456.0" prefWidth="673.0">
+         <children>
+            <Label layoutX="57.0" layoutY="52.0" prefHeight="39.0" prefWidth="230.0" text="Contact Via Mail:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="100.0" prefHeight="30.0" prefWidth="189.0" text="rashikjoy777@gamil.com">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="130.0" prefHeight="30.0" prefWidth="189.0" text="rabbytogor@gamil.com">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="160.0" prefHeight="30.0" prefWidth="200.0" text="shahriarnadimprince@gmail.com">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="376.0" layoutY="208.0" prefHeight="39.0" prefWidth="230.0" text="Contact Via Phone:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="378.0" layoutY="277.0" prefHeight="30.0" prefWidth="189.0" text="01756*******">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="378.0" layoutY="247.0" prefHeight="30.0" prefWidth="189.0" text="016269******">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="378.0" layoutY="307.0" prefHeight="30.0" prefWidth="189.0" text="01818*******">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="128.0" layoutY="385.0" prefHeight="30.0" prefWidth="390.0" text="** Contact us if you have any query **">
+               <font>
+                  <Font name="Bell MT" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="showuname" layoutX="451.0" layoutY="134.0" prefHeight="30.0" prefWidth="311.0" style="-fx-background-color: #f0f8ff;">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
